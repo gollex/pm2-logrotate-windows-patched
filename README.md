@@ -3,6 +3,9 @@
 
 PM2 module to automatically rotate logs of processes managed by PM2.
 
+This fork has merged the [patch-1](https://github.com/v-tawe/pm2-logrotate/tree/patch-1) branch of @v-tawe into master already,  
+so deleting old logs should work on windows.
+
 ## Install
 
     pm2 install pm2-logrotate
