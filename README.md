@@ -9,6 +9,8 @@ so deleting old logs should work on windows.
 ## Install
 
     pm2 install pm2-logrotate
+    // or from inside the local repo
+    pm2 install .
 
 **NOTE:** the command is `pm2 install` NOT `npm install`
 
